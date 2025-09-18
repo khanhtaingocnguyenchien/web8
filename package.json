@@ -18,8 +18,11 @@
     "start": "node dist/server/node-build.mjs",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "vercel-build": "vite build"
+
   },
+  
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
